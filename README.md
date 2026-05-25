@@ -108,7 +108,7 @@ git clone https://github.com/pier0del/Calculadora.git
 2. Entra en el proyecto:
 
 ```bash
-cd Calculadora
+cd Calculadora/Calculadora
 ```
 
 3. Compila el proyecto:
