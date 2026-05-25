@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 /**
  * Tests para la clase CalculoResultado
@@ -23,8 +24,8 @@ public class CalculadoraResultadoTest {
     @Test
     void resultadoError() {
         CalculoResultado r = new CalculoResultado("Error");
-        assertTrue(r.isSuccess());
-        assertEquals("error", r.getMessage());
+        assertFalse(r.isSuccess());
+        assertEquals("Error", r.getMessage());
         assertTrue(Double.isNaN(r.getValue()));
     }
 }

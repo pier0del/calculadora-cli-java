@@ -4,6 +4,7 @@ import main.java.com.example.calculator.service.EstadisticaService;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+
 /**
  * Tests para calculos estadisticos
  */
@@ -15,7 +16,7 @@ class EstadisticaServiceTest {
     @Test
     void mediaCorrecto() {
         double[] valores = {2, 4, 5};
-        assertEquals(4, service.mean(valores));
+        assertEquals(3.666, service.mean(valores), 0.001);
     }
 
     @Test
