@@ -95,15 +95,6 @@ src/
 
 ## Cómo ejecutar el proyecto
 
-### Opción 1 — Usando el `.jar` (recomendado)
-
-1. Descarga el archivo desde **Releases**
-2. Ejecuta:
-
-```bash
-java -jar calculator-1.0.0.jar
-```
-
 ---
 
 ### Opción 2 — Desde el código fuente (Maven)
